@@ -1,0 +1,1 @@
+* * * * * root /usr/bin/curl -u "$USERNAME:$PASSWORD" -H "Content-Type: application/json" -X POST -d '{"server_fqdn": "'$(hostname -f)'"}' http://web:8000/api/heartbeat
